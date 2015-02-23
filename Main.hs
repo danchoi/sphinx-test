@@ -8,7 +8,6 @@ import qualified Text.Search.Sphinx.Configuration as SC
 runQuery :: [Filter] -> String -> IO (Result QueryResult)
 runQuery xs queryString= do
   let sphinxConf = defaultConfig { filters = xs , port = 9315 }
-	-- blank query string
   query sphinxConf "srcIdx" (pack queryString)
 
 main = do
