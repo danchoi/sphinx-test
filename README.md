@@ -11,13 +11,13 @@ If this is wrong you can run the steps in the script manually.
 
 The values in the database are
 
-+----+-------+--------+--------+
-| id | title | price  | rating |
-+----+-------+--------+--------+
-|  1 | cake  |  23.99 |    3.4 |
-|  2 | soda  |   1.99 |    4.4 |
-|  3 | cake  | 123.99 |    2.4 |
-+----+-------+--------+--------+
+    +----+-------+--------+--------+
+    | id | title | price  | rating |
+    +----+-------+--------+--------+
+    |  1 | cake  |  23.99 |    3.4 |
+    |  2 | soda  |   1.99 |    4.4 |
+    |  3 | cake  | 123.99 |    2.4 |
+    +----+-------+--------+--------+
 
 Spin up the sphinx daemon
 
